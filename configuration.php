@@ -13,9 +13,9 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'root';
-	public $password = '';
-	public $db = 'oleos';
+	public $user = 'srv75327_admin';
+	public $password = '4a5vo7s2';
+	public $db = 'srv75327_oleos';
 	public $dbprefix = 'oleos_';
 	public $live_site = '';
 	public $secret = 'BpuMNcfFLiNbAwBc';

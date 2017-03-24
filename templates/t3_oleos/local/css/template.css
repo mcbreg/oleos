@@ -3096,3 +3096,7 @@ table.adminlist th a {
   font-size: xx-large;
   font-color: #4f9f46;
 }
+
+.promo1 {
+  float:left;
+}
