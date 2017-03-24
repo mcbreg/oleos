@@ -3087,6 +3087,15 @@ table.adminlist th a {
   font-weight: normal;
   font-style: normal;
 }
+.site-slogan {
+  padding-top: 10px;
+  float: right;
+}
+.site-slogan b {
+  font-family: 'Conv_rosa_marena';
+  font-size: xx-large;
+  font-color: #4f9f46;
+}
 
 .t3-footer {
   background: #f80;

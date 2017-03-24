@@ -2064,7 +2064,9 @@ input.invalid {
 .t3-module ol.unstyled,
 .t3-module ul.nav,
 .t3-module ol.nav {
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 .module_menu .nav {
   margin-bottom: 20px;
@@ -2074,6 +2076,7 @@ input.invalid {
 }
 .module_menu .nav > li > a {
   padding: 5px;
+  margin-top: 10px;
 }
 #login-form input[type="text"],
 #login-form input[type="password"] {
@@ -2999,9 +3002,8 @@ table.adminlist th a {
   padding-bottom: 0px;
   padding-top: 0px;
 }
-.t3-mainbody {
-  padding-bottom: 40px;
-  padding-top: 40px;
+.t3-sl-1 {
+  background-color: #f7f7f7;
 }
 .t3-footer {
   background: #222;
@@ -3056,7 +3058,6 @@ table.adminlist th a {
 .t3-copyright {
   border-top: 1px solid #2f2f2f;
   font-size: 12px;
-  padding: 40px 0 80px;
   *zoom: 1;
 }
 .t3-copyright:before,
@@ -3086,6 +3087,30 @@ table.adminlist th a {
   src: local('☺'), url('../../../../fonts/rosa_marena/font/rosa_marena.woff') format('woff'), url('../../../../fonts/rosa_marena/font/rosa_marena.ttf') format('truetype'), url('../../../../fonts/rosa_marena/font/rosa_marena.svg') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+.site-slogan {
+  padding-top: 10px;
+  float: right;
+  letter-spacing: 1.2pt;
+}
+.site-slogan b {
+  font-family: 'Conv_rosa_marena';
+  font-size: xx-large;
+  font-color: #4f9f46;
+}
+.nav-pills {
+  display: table;
+}
+.t3-spotlight-1 {
+  margin-left: 0px !important;
+}
+#sp-page-builder .page-content .sppb-section:first-child {
+  padding: 0px;
+}
+.sppb-carousel-pro-text h2 {
+  font-family: 'Conv_rosa_marena';
+  color: #fff;
+  font-size: 56px;
 }
 
 .t3-footer {

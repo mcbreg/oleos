@@ -131,6 +131,7 @@
 // Spotlight 1
 // -----------
 .t3-sl-1 {
+  background-color:#f7f7f7;
 }
 
 // Spotlight 2
@@ -154,8 +155,8 @@
 // MAIN BODY
 // ---------------------------------------------------------
 .t3-mainbody {
-  padding-bottom: @T3globalPadding * 2;
-  padding-top: @T3globalPadding * 2;
+ // padding-bottom: @T3globalPadding * 2;
+ // padding-top: @T3globalPadding * 2;
 }
 
 // Content
@@ -224,7 +225,7 @@
 .t3-copyright {
   border-top: 1px solid lighten(@grayDarker,5%);
   font-size: @T3smallerFontSize;
-  padding: (@T3globalPadding * 2) 0 (@T3globalPadding * 4);
+ // padding: (@T3globalPadding * 2) 0 (@T3globalPadding * 4);
   .clearfix();
 }
 
@@ -256,3 +257,31 @@
 	font-style: normal;
 }
 
+.site-slogan {
+  padding-top: 10px;
+  float: right;
+  letter-spacing: 1.2pt;
+}
+.site-slogan b {
+  font-family: 'Conv_rosa_marena';
+  font-size: xx-large;
+  font-color: @green;
+}
+
+.nav-pills {
+  display:table;
+}
+
+.t3-spotlight-1 {
+  margin-left: 0px!important;
+}
+
+#sp-page-builder .page-content .sppb-section:first-child {
+  padding: 0px;
+}
+
+.sppb-carousel-pro-text h2{
+  font-family: 'Conv_rosa_marena';
+  color: #fff;
+  font-size: 56px;
+}
