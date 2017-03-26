@@ -18,3 +18,4 @@
 2017-03-17 17:32:20 ERROR vmError: The path for invoices seems to miss the correct file permissions Safe Path C:\wamp64\www\vmfiles\
 2017-03-17 17:47:15 ERROR vmError: Could not find VirtueMart submenues, please install VirtueMart again
 2017-03-17 17:47:15 ERROR vmError: Could not find VirtueMart submenues, please install VirtueMart again
+2017-03-24 21:37:31 ERROR vmError: TableCustoms Тип отсутствует! Не удается сохранить запись без Тип.

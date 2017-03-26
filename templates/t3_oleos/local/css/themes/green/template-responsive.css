@@ -1135,8 +1135,8 @@
     margin-right: -20px;
   }
   .t3-mainnav {
-    background: #e6e6e6;
-    border-top: 1px solid #d9d9d9;
+    background: #4f9f46;
+    border-top: 1px solid #468d3e;
     height: auto;
     margin-left: -20px;
     margin-right: -20px;
@@ -1178,7 +1178,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   }
   .t3-mainnav .nav-collapse .dropdown-menu a {
-    border-top: 1px solid #d9d9d9;
+    border-top: 1px solid #468d3e;
     border-bottom: 0;
     font-weight: normal;
     padding: 10px 20px;
@@ -1195,7 +1195,7 @@
   .t3-mainnav .nav-collapse .dropdown-menu {
     margin: 0;
     padding: 0;
-    background-color: #e6e6e6;
+    background-color: #4f9f46;
     border: none;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;

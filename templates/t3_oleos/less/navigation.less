@@ -16,7 +16,8 @@
 //  JA MAIN MENU
 // -------------------------------------------------------
 .t3-mainnav {
-  #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+//  #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+  #gradient > .vertical(@navbarBackground, @navbarBackground);
   border-top: 1px solid @navbarBackground;
   border-bottom: 1px solid darken(@navbarBackground, 10%);
 
@@ -43,8 +44,15 @@
   // -------------------------------------------------------
   .navbar .nav {
     margin: 0;
+    display: table;
+    width: 100%;
   }
 
+  .navbar .nav > li{
+    float:none !important;
+    display: table-cell;
+    text-align: center;
+  }
 
   // Links
   // -----
@@ -53,6 +61,7 @@
     border-right: 1px solid darken(@navbarBackground, 5%);
     padding: ((@navbarHeight - @T3globalPadding) / 2) @T3globalPadding;
     text-shadow: none;
+    color: #fff;
   }
 
   .navbar .nav > li > .separator,

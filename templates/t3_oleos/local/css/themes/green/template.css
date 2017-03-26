@@ -1551,8 +1551,8 @@ input.invalid {
   color: #eee;
 }
 .nav li.dropdown > .dropdown-toggle .caret {
-  border-top-color: #666;
-  border-bottom-color: #666;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 .nav li.dropdown > .dropdown-toggle:hover .caret {
   border-top-color: #eee;
@@ -1866,22 +1866,16 @@ input.invalid {
 }
 
 .t3-mainnav {
-  background-color: #f5f5f5;
-//  background-image: -moz-linear-gradient(top,#ffffff,#e6e6e6);
-//  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#e6e6e6));
-//  background-image: -webkit-linear-gradient(top,#ffffff,#e6e6e6);
-//  background-image: -o-linear-gradient(top,#ffffff,#e6e6e6);
-//  background-image: linear-gradient(to bottom,#ffffff,#e6e6e6);
-  backround-image: -moz-linear-gradient(top,#4f9f46,#4f9f46);
+  background-color: #4f9f46;
+  background-image: -moz-linear-gradient(top,#4f9f46,#4f9f46);
   background-image: -webkit-gradient(linear,0 0,0 100%,from(#4f9f46),to(#4f9f46));
   background-image: -webkit-linear-gradient(top,#4f9f46,#4f9f46);
   background-image: -o-linear-gradient(top,#4f9f46,#4f9f46);
   background-image: linear-gradient(to bottom,#4f9f46,#4f9f46);
-
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe5e5e5', GradientType=0);
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #cccccc;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4f9f46', endColorstr='#ff4f9f46', GradientType=0);
+  border-top: 1px solid #4f9f46;
+  border-bottom: 1px solid #3d7c36;
 }
 .t3-mainnav .navbar {
   color: #666;
@@ -1893,7 +1887,7 @@ input.invalid {
   padding: 0;
   background: transparent;
   border: 0;
-  border-left: 1px solid #d9d9d9;
+  border-left: 1px solid #468d3e;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -1904,10 +1898,17 @@ input.invalid {
 }
 .t3-mainnav .navbar .nav {
   margin: 0;
+  display: table;
+  width: 100%;
+}
+.t3-mainnav .navbar .nav > li {
+  float: none !important;
+  display: table-cell;
+  text-align: center;
 }
 .t3-mainnav .navbar .nav > li > a {
   border-top: 0;
-  border-right: 1px solid #d9d9d9;
+  border-right: 1px solid #468d3e;
   padding: 10px 20px;
   text-shadow: none;
   color: #fff;
@@ -1955,18 +1956,18 @@ input.invalid {
   margin: 4px 20px 4px;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  background-color: #e8e8e8;
-  background-image: -moz-linear-gradient(top,#f2f2f2,#d9d9d9);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#d9d9d9));
-  background-image: -webkit-linear-gradient(top,#f2f2f2,#d9d9d9);
-  background-image: -o-linear-gradient(top,#f2f2f2,#d9d9d9);
-  background-image: linear-gradient(to bottom,#f2f2f2,#d9d9d9);
+  background-color: #468d3e;
+  background-image: -moz-linear-gradient(top,#468d3e,#468d3e);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#468d3e),to(#468d3e));
+  background-image: -webkit-linear-gradient(top,#468d3e,#468d3e);
+  background-image: -o-linear-gradient(top,#468d3e,#468d3e);
+  background-image: linear-gradient(to bottom,#468d3e,#468d3e);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ffd8d8d8', GradientType=0);
-  border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff468d3e', endColorstr='#ff468d3e', GradientType=0);
+  border-color: #468d3e #468d3e #2c5827;
   border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
   
-  *background-color: #d9d9d9;
+  *background-color: #468d3e;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
   -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
@@ -1979,12 +1980,12 @@ input.invalid {
 .t3-mainnav .navbar .btn-navbar.disabled,
 .t3-mainnav .navbar .btn-navbar[disabled] {
   color: #fff;
-  background-color: #d9d9d9;
-  *background-color: #cccccc;
+  background-color: #468d3e;
+  *background-color: #3d7c36;
 }
 .t3-mainnav .navbar .btn-navbar:active,
 .t3-mainnav .navbar .btn-navbar.active {
-  background-color: #bfbfbf \9;
+  background-color: #356a2f \9;
 }
 .t3-mainnav .navbar .btn-navbar [class^="icon-"],
 .t3-mainnav .navbar .btn-navbar [class^=" icon-"] {
