@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * @package   T3 Blank
  * @copyright Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
@@ -36,6 +36,11 @@ $logoimgsm = ($logotype == 'image' && $this->params->get('enable_logoimage_sm', 
 
     <?php if($this->countModules('head-search or languageswitcherload')): ?>
     <div class="span4 clearfix">  
+      <div style="float:right;"><h3 style="text-align:right;margin-bottom: 0px;">8 800 555 02 33</h3><span style="text-align:right">звонки по РФ бесплатно</span></div>
+  
+      <?php if ($this->countModules('languageswitcherload')) : ?>
+      <!-- LANGUAGE SWITCHER -->
+      <div class="languageswitcherload">
       <?php if ($this->countModules('head-search')) : ?>
       <!-- HEAD SEARCH -->
       <div class="head-search<?php $this->_c('head-search')?>">     
@@ -43,10 +48,7 @@ $logoimgsm = ($logotype == 'image' && $this->params->get('enable_logoimage_sm', 
       </div>
       <!-- //HEAD SEARCH -->
       <?php endif ?>
-  
-      <?php if ($this->countModules('languageswitcherload')) : ?>
-      <!-- LANGUAGE SWITCHER -->
-      <div class="languageswitcherload">
+
           <jdoc:include type="modules" name="<?php $this->_p('languageswitcherload') ?>" style="raw" />
       </div>
       <!-- //LANGUAGE SWITCHER -->

@@ -2988,7 +2988,7 @@ table.adminlist th a {
 }
 .head-search {
   float: right;
-  margin-top: 20px;
+//  margin-top: 20px;
 }
 .head-search form {
   margin: 0;
@@ -3104,7 +3104,7 @@ table.adminlist th a {
 .site-slogan b {
   font-family: 'Conv_rosa_marena';
   font-size: xx-large;
-  font-color: #4f9f46;
+  color: #4f9f46;
 }
 .nav-pills {
   display: table;
@@ -3119,6 +3119,9 @@ table.adminlist th a {
   font-family: 'Conv_rosa_marena';
   color: #fff;
   font-size: 56px;
+}
+.vina-carousel-virtuemart .product-title {
+  font-size: 14px;
 }
 
 .t3-footer {
@@ -3138,4 +3141,23 @@ table.adminlist th a {
 }
 .t3-copyright {
   border-top: 1px solid #58b14e;
+}
+.vm-product-container {
+float: left;
+width: 50%;
+}
+.product-fields {
+float: right;
+width: 40%;
+}
+.customer-reviews {
+ float:left;
+}
+.productdetails-view h1{
+ float:right;
+  font-family: 'Conv_rosa_marena';
+  color: #4f9f46;
+}
+.back-to-category {
+ float:none;
 }

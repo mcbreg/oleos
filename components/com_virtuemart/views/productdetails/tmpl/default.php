@@ -228,7 +228,7 @@ echo $this->loadTemplate('images');
 
 <?php // onContentAfterDisplay event
 echo $this->product->event->afterDisplayContent;
-
+?>	<div class="clear"></div> <?php
 echo $this->loadTemplate('reviews');
 
 // Show child categories
